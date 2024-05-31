@@ -50,8 +50,9 @@ const EmployeeTable = () => {
             <td>
                 <img src={employee.image} alt={employee.name} width="50" style={{ borderRadius: '50%' }} />
                 &nbsp;{employee.name}
-            </td>
+            </td>     
             <td>{employee.Designation}</td>
+            {/* demo */}
             <td>{employee.Department}</td>
             <td>
                 <ul>
